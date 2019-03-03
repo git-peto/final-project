@@ -1,0 +1,156 @@
+.carousel-caption{
+    top: 70%;
+}
+
+.carousel-caption h3{
+    color: #cecece;
+}
+
+.carousel-caption h3 a{
+    color: white;
+}
+
+#section-profile{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#section-profile h1{
+    color: #3a6073;
+}
+
+#section-profile p{
+    line-height: 2;
+}
+
+#section-profile .section-title{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #16222a;
+    width: 30%;
+}
+
+#section-quote{
+    background-image: linear-gradient(to right, #16222a, #3a6073);
+    color: white;
+}
+
+#section-quote h3.text-lg{
+    text-align: center;
+    margin-top: 25%;
+}
+
+#section-support{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#section-support h1{
+    color: #3a6073;
+    padding-bottom: 30px;
+}
+
+#section-support input[type=text]{
+    width: 500px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#section-support input[type=text]:focus{
+    border: 3px solid #335368;
+    box-shadow: 5px 5px #335368;
+}
+
+.btn-support{
+    background-color: #335368;
+    color: white;
+}
+
+.btn-support:hover{
+    background-image: none;
+    outline: 1px solid #ffffff;
+    outline-offset: -4px;
+    box-shadow: none;
+    color: white;
+}
+
+.btn-support:focus{
+    outline: 0;
+    background-color: #779bb3;
+    color: #ffffff;
+    box-shadow: 2px 2px #6790ac;
+}
+
+#section-footer{
+    background-image: linear-gradient(to right, #16222a, #3a6073);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#section-footer a{
+    color: #ffffff;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    html{
+        font-size: 10pt;
+    }
+
+    .carousel-caption{
+        top: 50%;
+    }
+
+    .carousel-caption h3{
+        font-size: 8pt;
+    }
+
+    #section-profile .section-title{
+        width: 60%;
+    }
+
+    .section-title{
+        font-size: 20pt;
+    }
+
+    #section-quote h3.text-lg{
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-size: 14pt;
+    }
+
+    #section-support input[type=text]{
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #section-footer img{
+        width: 200px;
+        padding-bottom: 30px;
+    }
+    
+    #btn-scroll-to-support-us{
+        display: none;
+    }
+}
+
+ /* Tablet */
+ @media (max-width: 768px) {
+    #section-profile .section-title{
+        width: 40%;
+    }
+
+    .section-title{
+        font-size: 18pt;
+    }
+
+    #section-quote h3.text-lg{
+        margin-bottom: 30px;
+        font-size: 14pt;
+        margin-top: 25%;
+    }
+}
